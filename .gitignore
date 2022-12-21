@@ -4,3 +4,5 @@ bin/
 libFJML.so
 
 docs/
+
+.clang-format

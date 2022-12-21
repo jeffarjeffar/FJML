@@ -4,10 +4,10 @@ CFLAGS = -O3 -std=c++17 -fsanitize=undefined $(FLAGS)
 HEADERS = FJML/activations/activations.h \
 		  FJML/data/data.h \
 		  FJML/layers/layers.h \
+		  FJML/linalg/linalg.h FJML/linalg/tensor.h \
 		  FJML/loss/loss.h \
 		  FJML/mlp/mlp.h \
-		  FJML/optimizers/optimizers.h \
-		  FJML/util/linalg.h FJML/util/types.h FJML/util/util.h
+		  FJML/optimizers/optimizers.h
 CFILES = bin/activations/activations.o \
 		 bin/layers/dense.o bin/layers/layers.o bin/layers/softmax.o \
 		 bin/loss/loss.o \

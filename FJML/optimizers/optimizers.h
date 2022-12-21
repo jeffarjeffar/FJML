@@ -9,6 +9,11 @@
 
 namespace FJML {
 
+/**
+ * @brief Namespace for optimizers
+ * 
+ * Optimizers are used to optimize the parameters of a neural network during gradient descent.
+*/
 namespace Optimizers {
 
 /**

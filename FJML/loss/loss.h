@@ -8,6 +8,9 @@
 
 namespace FJML {
 
+/**
+ * @brief Namespace for loss functions
+ */
 namespace Loss {
 
 const double CLIP = 1e9;
