@@ -5,7 +5,7 @@
 
 #include <cassert>
 
-#include "types.h"
+#include "tensor.h"
 
 namespace FJML {
 

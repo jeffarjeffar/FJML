@@ -4,7 +4,7 @@
 #include <cmath>
 #include <functional>
 
-#include "../util/types.h"
+#include "../linalg/tensor.h"
 
 namespace FJML {
 

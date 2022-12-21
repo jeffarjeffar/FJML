@@ -10,8 +10,8 @@
 
 #include "../activations/activations.h"
 #include "../optimizers/optimizers.h"
-#include "../util/linalg.h"
-#include "../util/types.h"
+#include "../linalg/linalg.h"
+#include "../linalg/tensor.h"
 
 namespace FJML {
 
